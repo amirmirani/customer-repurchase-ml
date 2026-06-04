@@ -1,0 +1,258 @@
+{
+  "split": {
+    "strategy": "first_80_percent_train_last_20_percent_validation",
+    "train_rows": 4000,
+    "validation_rows": 1000
+  },
+  "best_model": "random_forest",
+  "best_model_run_id": "5aef19a5a3014c2cbb95dec02d3288b2",
+  "mlflow_tracking_uri": "./mlruns",
+  "mlflow_experiment": "customer_repurchase_prediction",
+  "mlflow_run_ids": {
+    "logistic_regression": "157d3c550b9e47948148ddc09138e4de",
+    "random_forest": "5aef19a5a3014c2cbb95dec02d3288b2",
+    "xgboost": "1bd00611769d4745ac401bca4ab49bb3"
+  },
+  "metrics": {
+    "baseline_all_negative": {
+      "roc_auc": 0.5,
+      "pr_auc": 0.269,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "logistic_regression": {
+      "roc_auc": 0.7168796627322149,
+      "pr_auc": 0.5004451423763117,
+      "precision": 0.4009216589861751,
+      "recall": 0.6468401486988847,
+      "f1": 0.4950213371266003
+    },
+    "random_forest": {
+      "roc_auc": 0.7177594475154979,
+      "pr_auc": 0.4929894616969989,
+      "precision": 0.41247002398081534,
+      "recall": 0.6394052044609665,
+      "f1": 0.5014577259475219
+    },
+    "xgboost": {
+      "roc_auc": 0.7061417114611039,
+      "pr_auc": 0.4827316258323169,
+      "precision": 0.5263157894736842,
+      "recall": 0.26022304832713755,
+      "f1": 0.3482587064676617
+    }
+  },
+  "feature_importance": {
+    "logistic_regression": [
+      {
+        "feature": "numeric__days_since_last_order",
+        "importance": 0.829276
+      },
+      {
+        "feature": "numeric__orders_last_90d",
+        "importance": 0.601941
+      },
+      {
+        "feature": "favorite_category__favorite_category_Home",
+        "importance": 0.253867
+      },
+      {
+        "feature": "favorite_category__favorite_category_unknown",
+        "importance": 0.218896
+      },
+      {
+        "feature": "favorite_category__favorite_category_Grocery",
+        "importance": 0.174413
+      },
+      {
+        "feature": "favorite_category__favorite_category_Electronics",
+        "importance": 0.154748
+      },
+      {
+        "feature": "numeric__avg_order_value_90d",
+        "importance": 0.132708
+      },
+      {
+        "feature": "favorite_category__favorite_category_Sports",
+        "importance": 0.132197
+      },
+      {
+        "feature": "numeric__orders_last_30d",
+        "importance": 0.131278
+      },
+      {
+        "feature": "numeric__customer_tenure_days",
+        "importance": 0.123632
+      },
+      {
+        "feature": "favorite_category__favorite_category_Toys",
+        "importance": 0.078822
+      },
+      {
+        "feature": "favorite_category__favorite_category_Fashion",
+        "importance": 0.075277
+      },
+      {
+        "feature": "numeric__total_spend_90d",
+        "importance": 0.055337
+      },
+      {
+        "feature": "favorite_category__favorite_category_Books",
+        "importance": 0.026556
+      },
+      {
+        "feature": "numeric__avg_quantity_per_order",
+        "importance": 0.024377
+      },
+      {
+        "feature": "favorite_category__favorite_category_Beauty",
+        "importance": 0.023127
+      },
+      {
+        "feature": "numeric__category_diversity_90d",
+        "importance": 0.001653
+      }
+    ],
+    "random_forest": [
+      {
+        "feature": "numeric__days_since_last_order",
+        "importance": 0.243262
+      },
+      {
+        "feature": "numeric__customer_tenure_days",
+        "importance": 0.146854
+      },
+      {
+        "feature": "numeric__avg_order_value_90d",
+        "importance": 0.144192
+      },
+      {
+        "feature": "numeric__total_spend_90d",
+        "importance": 0.140289
+      },
+      {
+        "feature": "numeric__orders_last_90d",
+        "importance": 0.098556
+      },
+      {
+        "feature": "numeric__category_diversity_90d",
+        "importance": 0.073525
+      },
+      {
+        "feature": "numeric__avg_quantity_per_order",
+        "importance": 0.068816
+      },
+      {
+        "feature": "favorite_category__favorite_category_unknown",
+        "importance": 0.032989
+      },
+      {
+        "feature": "numeric__orders_last_30d",
+        "importance": 0.02618
+      },
+      {
+        "feature": "favorite_category__favorite_category_Beauty",
+        "importance": 0.006209
+      },
+      {
+        "feature": "favorite_category__favorite_category_Electronics",
+        "importance": 0.004212
+      },
+      {
+        "feature": "favorite_category__favorite_category_Fashion",
+        "importance": 0.003685
+      },
+      {
+        "feature": "favorite_category__favorite_category_Grocery",
+        "importance": 0.00349
+      },
+      {
+        "feature": "favorite_category__favorite_category_Books",
+        "importance": 0.003306
+      },
+      {
+        "feature": "favorite_category__favorite_category_Home",
+        "importance": 0.002786
+      },
+      {
+        "feature": "favorite_category__favorite_category_Sports",
+        "importance": 0.001074
+      },
+      {
+        "feature": "favorite_category__favorite_category_Toys",
+        "importance": 0.000573
+      }
+    ],
+    "xgboost": [
+      {
+        "feature": "favorite_category__favorite_category_unknown",
+        "importance": 0.4662350118160248
+      },
+      {
+        "feature": "numeric__orders_last_90d",
+        "importance": 0.12233500182628632
+      },
+      {
+        "feature": "numeric__category_diversity_90d",
+        "importance": 0.06192899867892265
+      },
+      {
+        "feature": "numeric__days_since_last_order",
+        "importance": 0.05202599987387657
+      },
+      {
+        "feature": "numeric__total_spend_90d",
+        "importance": 0.03804599866271019
+      },
+      {
+        "feature": "favorite_category__favorite_category_Beauty",
+        "importance": 0.02755199931561947
+      },
+      {
+        "feature": "favorite_category__favorite_category_Grocery",
+        "importance": 0.026081999763846397
+      },
+      {
+        "feature": "numeric__avg_order_value_90d",
+        "importance": 0.025095000863075256
+      },
+      {
+        "feature": "numeric__customer_tenure_days",
+        "importance": 0.024431999772787094
+      },
+      {
+        "feature": "numeric__avg_quantity_per_order",
+        "importance": 0.02342200092971325
+      },
+      {
+        "feature": "favorite_category__favorite_category_Fashion",
+        "importance": 0.02148200012743473
+      },
+      {
+        "feature": "favorite_category__favorite_category_Books",
+        "importance": 0.02098199911415577
+      },
+      {
+        "feature": "favorite_category__favorite_category_Sports",
+        "importance": 0.02085700072348118
+      },
+      {
+        "feature": "favorite_category__favorite_category_Electronics",
+        "importance": 0.019899999722838402
+      },
+      {
+        "feature": "numeric__orders_last_30d",
+        "importance": 0.019442999735474586
+      },
+      {
+        "feature": "favorite_category__favorite_category_Home",
+        "importance": 0.018804000690579414
+      },
+      {
+        "feature": "favorite_category__favorite_category_Toys",
+        "importance": 0.011377999559044838
+      }
+    ]
+  }
+}

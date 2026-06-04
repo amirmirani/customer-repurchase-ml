@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Snapp/Documents/Codex/2026-06-04/mirshemirani3447-gmail-com/outputs/customer-repurchase-ml/mlruns/857305348832711775/models/m-adada9bca3a4419c84de1064a92c26bc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-adada9bca3a4419c84de1064a92c26bc
+model_size_bytes: 4720149
+model_uuid: m-adada9bca3a4419c84de1064a92c26bc
+prompts: null
+run_id: 5aef19a5a3014c2cbb95dec02d3288b2
+utc_time_created: '2026-06-04 22:37:23.964475'

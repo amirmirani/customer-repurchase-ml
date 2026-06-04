@@ -1,0 +1,9 @@
+artifact_location: file:C:/Users/Snapp/Documents/Codex/2026-06-04/mirshemirani3447-gmail-com/outputs/customer-repurchase-ml/mlruns/857305348832711775
+creation_time: 1780612636566
+effective_trace_archival_retention: null
+experiment_id: '857305348832711775'
+last_update_time: 1780612636566
+lifecycle_stage: active
+name: customer_repurchase_prediction
+trace_location: null
+workspace: default
