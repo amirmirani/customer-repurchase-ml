@@ -1,0 +1,24 @@
+{
+  "feature_columns": [
+    "orders_last_30d",
+    "orders_last_90d",
+    "total_spend_90d",
+    "avg_order_value_90d",
+    "category_diversity_90d",
+    "avg_quantity_per_order",
+    "days_since_last_order",
+    "customer_tenure_days",
+    "favorite_category"
+  ],
+  "defaults": {
+    "orders_last_30d": 0,
+    "orders_last_90d": 0,
+    "total_spend_90d": 0.0,
+    "avg_order_value_90d": 0.0,
+    "category_diversity_90d": 0,
+    "avg_quantity_per_order": 0.0,
+    "days_since_last_order": 999,
+    "customer_tenure_days": 0,
+    "favorite_category": "unknown"
+  }
+}

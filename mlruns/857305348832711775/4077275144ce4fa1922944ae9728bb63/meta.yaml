@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Snapp/Documents/Codex/2026-06-04/mirshemirani3447-gmail-com/outputs/customer-repurchase-ml/mlruns/857305348832711775/4077275144ce4fa1922944ae9728bb63/artifacts
+end_time: 1780613905946
+entry_point_name: ''
+experiment_id: '857305348832711775'
+lifecycle_stage: active
+run_id: 4077275144ce4fa1922944ae9728bb63
+run_name: xgboost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780613900478
+status: 3
+tags: []
+user_id: Snapp

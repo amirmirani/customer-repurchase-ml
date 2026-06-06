@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/Snapp/Documents/Codex/2026-06-04/mirshemirani3447-gmail-com/outputs/customer-repurchase-ml/mlruns/857305348832711775/models/m-11a70dc7f82d45888e09929b34d851fc/artifacts
+creation_timestamp: 1780613892847
+experiment_id: '857305348832711775'
+last_updated_timestamp: 1780613896776
+model_id: m-11a70dc7f82d45888e09929b34d851fc
+model_type: null
+name: model
+source_run_id: e3a307c4d28d4ee4811e947c74d1062e
+status: 2
+status_message: null
